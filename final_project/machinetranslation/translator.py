@@ -21,3 +21,6 @@ def french_to_english(french_text):
     english_text = MyMemoryTranslator(source='fr-FR', target ='en-US').translate(french_text)
     print(english_text)
     return english_text
+
+if __name__ == '__main__':
+    app.run()
